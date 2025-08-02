@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Mohan Verma",
+    "specialization": "Cardiologist",
+    "image": "/images/doctor1.jpg",
+    "availability": "Available Today",
+    "schedule": ["10:00 AM", "2:00 PM", "5:00 PM"]
+  },
+  {
+    "id": 2,
+    "name": "Dr. Rahul Mehra",
+    "specialization": "Dermatologist",
+    "image": "/images/doctor2.jpg",
+    "availability": "Fully Booked",
+    "schedule": ["11:00 AM", "3:00 PM"]
+  },
+  {
+    "id": 3,
+    "name": "Dr. David Johnson",
+    "specialization": "Pediatrician",
+    "image": "/images/doctor3.jpg",
+    "availability": "Available Tomorrow",
+    "schedule": ["9:00 AM", "1:00 PM", "4:00 PM"]
+  },
+  {
+    "id": 4,
+    "name": "Dr. Priya Singh",
+    "specialization": "Orthopedic Surgeon",
+    "image": "/images/doctor4.jpg",
+    "availability": "Available Today",
+    "schedule": ["10:30 AM", "1:30 PM", "3:30 PM"]
+  },
+  {
+    "id": 5,
+    "name": "Dr. Prakash Gupta",
+    "specialization": "Gynecologist",
+    "image": "/images/doctor5.jpg",
+    "availability": "Available Today",
+    "schedule": ["9:30 AM", "12:30 PM", "2:30 PM"]
+  },
+  {
+    "id": 6,
+    "name": "Dr. Neha Chowdhury",
+    "specialization": "Neurologist",
+    "image": "/images/doctor6.jpg", 
+    "availability": "Available Tomorrow",
+    "schedule": ["10:00 AM", "1:00 PM", "3:00 PM"]
+  },
+  {
+    "id": 7,
+    "name": "Dr. Suman Rao",
+    "specialization": "General Physician",
+    "image": "/images/doctor7.jpg",
+    "availability": "Available Today",
+    "schedule": ["8:00 AM", "11:00 AM", "4:00 PM"]
+  },
+  {
+    "id": 8,
+    "name": "Dr. Karan Kapoor",
+    "specialization": "ENT Specialist",
+    "image": "/images/doctor8.jpg",
+    "availability": "Available Tomorrow",
+    "schedule": ["9:00 AM", "12:00 PM", "3:00 PM"]
+  }
+  
+]

@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+.doctor-profile {
+  max-width: 480px;
+  margin: 2.5rem auto;
+  padding: 2.5rem 2rem;
+  background: linear-gradient(135deg, #ffe3e3 0%, #e3ffe3 50%, #e3f7ff 100%);
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(255, 193, 7, 0.10), 0 2px 8px rgba(76, 175, 80, 0.08);
+  font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+  text-align: left;
+  position: relative;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.profile-header img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ff9800;
+  box-shadow: 0 2px 8px rgba(255,193,7,0.10);
+}
+
+.profile-header h2 {
+  font-size: 1.7rem;
+  color: #ff9800;
+  margin: 0 0 0.3rem 0;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.specialization {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #00bcd4;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-bottom: 0.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.availability-row {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 1.2rem;
+}
+
+.availability-label {
+  font-size: 1.08rem;
+  font-weight: 500;
+  color: #333;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.availability-status {
+  font-size: 1.08rem;
+  font-weight: 700;
+  font-family: 'Montserrat', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.doctor-profile h4 {
+  font-size: 1.15rem;
+  color: #4caf50;
+  margin: 1rem 0 0.5rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.doctor-profile ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.doctor-profile li {
+  font-size: 1rem;
+  color: #666;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.doctor-profile li:last-child {
+  border-bottom: none;
+}
+
+.doctor-profile button {
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(90deg, #ff9800 40%, #00bcd4 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,188,212,0.12);
+  transition: background 0.3s, transform 0.2s;
+  margin-top: 0.5rem;
+  letter-spacing: 0.5px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.doctor-profile button:hover {
+  background: linear-gradient(90deg, #4caf50 40%, #ff9800 100%);
+  transform: translateY(-2px) scale(1.04);
+}
+
+.doctor-profile button:active {
+  background: #00bcd4;
+  transform: scale(0.98);
+}
+
+.doctor-profile .not-found {
+  font-size: 1.2rem;
+  color: #dc3545;
+  text-align: center;
+  margin: 2rem 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+/* Decorative accent bar */
+.doctor-profile::after {
+  content: '';
+  display: block;
+  width: 60%;
+  height: 4px;
+  margin: 1.5rem auto 0 auto;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #ff9800 0%, #00bcd4 100%);
+  opacity: 0.7;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .doctor-profile {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .profile-header img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .profile-header h2 {
+    font-size: 1.2rem;
+  }
+}
+
+.not-found-card {
+  max-width: 400px;
+  margin: 3rem auto;
+  padding: 2rem 1.5rem;
+  background: linear-gradient(135deg, #ffe3e3 0%, #e3f7ff 100%);
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(255, 193, 7, 0.10), 0 2px 8px rgba(76, 175, 80, 0.08);
+  text-align: center;
+  font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+}
+
+.not-found-icon {
+  font-size: 3rem;
+  color: #ff9800;
+  margin-bottom: 1rem;
+}
+
+.not-found-card h2 {
+  color: #f44336;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.not-found-card p {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.not-found-card button {
+  padding: 0.7rem 1.5rem;
+  background: linear-gradient(90deg, #ff9800 40%, #00bcd4 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,188,212,0.12);
+  transition: background 0.3s, transform 0.2s;
+  font-family: 'Montserrat', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.not-found-card button:hover {
+  background: linear-gradient(90deg, #4caf50 40%, #ff9800 100%);
+  transform: translateY(-2px) scale(1.04);
+}

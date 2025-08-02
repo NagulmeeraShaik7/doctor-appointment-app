@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+/* Global styles for the App */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+  background: linear-gradient(135deg, #e3f7ff 0%, #e3ffe3 100%);
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+#root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+main {
+  flex: 1;
+  padding: 2.5rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  background: linear-gradient(135deg, #ffe3e3 0%, #e3ffe3 50%, #e3f7ff 100%);
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(255, 193, 7, 0.10), 0 2px 8px rgba(76, 175, 80, 0.08);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.app-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(255, 193, 7, 0.08), 0 2px 8px rgba(76, 175, 80, 0.06);
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+@media (max-width: 900px) {
+  main {
+    padding: 1.2rem;
+    max-width: 98vw;
   }
-  to {
-    transform: rotate(360deg);
+  .app-container {
+    padding: 1.2rem;
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 0.5rem;
+    border-radius: 8px;
+  }
+  .app-container {
+    padding: 0.7rem;
+    border-radius: 8px;
   }
 }
