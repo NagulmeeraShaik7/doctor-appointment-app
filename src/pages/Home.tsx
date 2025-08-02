@@ -12,7 +12,7 @@ const Home: React.FC = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // For real API: fetch('/api/doctors').then(res => res.json()).then(setFiltered);
+    
     const filteredDoctors = doctorsData.filter(
       (doc) =>
         doc.name.toLowerCase().includes(query.toLowerCase()) ||

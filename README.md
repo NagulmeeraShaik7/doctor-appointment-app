@@ -116,7 +116,14 @@ Doctor Appointment App streamlines the process of finding and booking appointmen
    npm run build
    ```
 
----
+--- 
+
+- Demo Video:
+
+<video controls src="20250802-1620-30.2329729.mp4" title="Title"></video>
+
+
+- Deployed URL : [https://doctor-appointment-app-flax.vercel.app/](https://doctor-appointment-app-flax.vercel.app/)
 
 ## 💡 Contributing
 
