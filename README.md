@@ -120,7 +120,7 @@ Doctor Appointment App streamlines the process of finding and booking appointmen
 
 - Demo Video:
 
-<video controls src="20250802-1620-30.2329729.mp4" title="Title"></video>
+https://drive.google.com/file/d/1qRjTkZT8oGNRFcYG6s-9Tekj0xYgLa9L/view?usp=drive_link
 
 
 - Deployed URL : [https://doctor-appointment-app-flax.vercel.app/](https://doctor-appointment-app-flax.vercel.app/)
